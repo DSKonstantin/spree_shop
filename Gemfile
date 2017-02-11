@@ -29,6 +29,7 @@ group :development do
   gem 'capistrano-rvm'                                    # RVM capistrano receipts
   gem 'capistrano-rails'                                  # Rails capistrano receipts
   gem 'capistrano-rails-console'                          # Remote rails console for capistrano
+  gem 'capistrano-bundler'
   gem 'capistrano3-puma'                                  # Puma web-server capistrano receipts
   gem 'jazz_hands'                                      # More Flexible Rails Console
   gem 'listen'

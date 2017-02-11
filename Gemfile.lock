@@ -402,6 +402,7 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano
+  capistrano-bundler
   capistrano-rails
   capistrano-rails-console
   capistrano-rvm
