@@ -10,10 +10,6 @@ gem 'coffee-rails', '~> 4.2'  # Use CoffeeScript for .coffee assets and views
 gem 'jquery-rails'            # Use jquery as the JavaScript library
 gem 'turbolinks', '~> 5'      # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 
-group :production do
-  ruby '2.3.0'
-end
-
 #Spree Gems
 gem 'spree', '~> 3.2.0.rc1'
 gem 'spree_auth_devise', '~> 3.2.0.beta'
