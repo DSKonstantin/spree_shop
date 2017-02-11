@@ -9,6 +9,7 @@ gem 'uglifier', '>= 1.3.0'    # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '~> 4.2'  # Use CoffeeScript for .coffee assets and views
 gem 'jquery-rails'            # Use jquery as the JavaScript library
 gem 'turbolinks', '~> 5'      # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
+gem 'nokogiri', '~> 1.6.8.1'      # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 
 #Spree Gems
 gem 'spree', '~> 3.2.0.rc1'
