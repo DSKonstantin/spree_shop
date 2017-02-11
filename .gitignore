@@ -24,7 +24,7 @@
 /config/database.yml
 
 # RVM config file
-
+/.rvmrc
 
 # MAC OS X folder metadata
 *.DS_Store

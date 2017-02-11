@@ -16,7 +16,7 @@ set :linked_files, %w{config/database.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
 
 # CAPISTRANO RVM CONFIGS
-set :rvm_ruby_version, '2.3.3@spree_shop'
+set :rvm_ruby_version, '2.3.0@spree_shop'
 set :default_env, rvm_bin_path: '~/.rvm/bin'
 
 # CAPISTRANO BUNDLER CONFIGS

@@ -11,7 +11,7 @@ gem 'jquery-rails'            # Use jquery as the JavaScript library
 gem 'turbolinks', '~> 5'      # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 
 group :production do
-  ruby '2.3.3'
+  ruby '2.3.0'
 end
 
 #Spree Gems
