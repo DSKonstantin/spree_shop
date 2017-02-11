@@ -5,7 +5,7 @@ set :application, 'spree_shop'
 set :repo_url,    'git@github.com:DSKonstantin/spree_shop.git'
 set :deploy_to,   '/home/root/spree_shop'
 set :user,        'root'
-set :use_sudo,    false
+set :use_sudo,    true
 set :scm, :git
 set :branch, :master
 set :format, :pretty
