@@ -20,7 +20,7 @@ gem 'haml-rails'                                          # Haml-rails provides 
 gem 'devise'                                              # Devise is a flexible authentication solution for Rails based on Warden.
 gem 'rollbar'
 
-gem 'listen'
+gem 'listen', '~> 3.1.5'
 
 
 group :development do

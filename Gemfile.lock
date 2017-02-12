@@ -415,7 +415,7 @@ DEPENDENCIES
   haml-rails
   jazz_hands
   jquery-rails
-  listen
+  listen (~> 3.1.5)
   nokogiri (~> 1.6.8.1)
   pg
   puma (~> 3.0)
