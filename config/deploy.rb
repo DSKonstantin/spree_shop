@@ -3,7 +3,7 @@
 set :repo_url, 'git@github.com:DSKonstantin/spree_shop.git'
 set :deploy_to, '/home/root/spree_shop'
 set :user, 'root'
-set :use_sudo, false
+set :use_sudo, true
 set :scm, :git
 set :branch, :master
 set :format, :pretty
@@ -21,19 +21,19 @@ set :rvm_ruby_version, '2.3.0@spree_shop'
 set :bundle_flags, '--deployment'
 
 namespace :deploy do
-#   desc 'DROP DATABASE BEFORE DEPLOY'
-#   task :refresh_database => [:set_rails_env] do
-#     on primary fetch(:migration_role) do
-#       within release_path do
-#         with rails_env: fetch(:rails_env) do
-#           execute :rake, 'app:destroy_pg_sessions'
-#           execute :rake, 'db:drop'
-#           execute :rake, 'db:create'
-#         end
-#       end
-#     end
-#   end
-#   before 'deploy:migrate', 'deploy:refresh_database'
+  # desc 'DROP DATABASE BEFORE DEPLOY'
+  # task :refresh_database => [:set_rails_env] do
+  #   on primary fetch(:migration_role) do
+  #     within release_path do
+  #       with rails_env: fetch(:rails_env) do
+  #         execute :rake, 'app:destroy_pg_sessions'
+  #         execute :rake, 'db:drop'
+  #         execute :rake, 'db:create'
+  #       end
+  #     end
+  #   end
+  # end
+  # before 'deploy:migrate', 'deploy:refresh_database'
 #
 #   desc 'Runs rake db:seed for update dictionaries'
 #   task :seed => [:set_rails_env] do
@@ -58,19 +58,19 @@ namespace :deploy do
 #     end
 #   end
 #   after 'deploy:seed', 'deploy:demo_seed'
-  task :copy_config do
-    on release_roles :app do |role|
-      fetch(:linked_files).each do |linked_file|
-        user = role.user + "@" if role.user
-        hostname = role.hostname
-        linked_files(shared_path).each do |file|
-          run_locally do
-            execute :rsync, "config/#{file.to_s.gsub(/.*\/(.*)$/,"\\1")}", "#{user}#{hostname}:#{file.to_s.gsub(/(.*)\/[^\/]*$/, "\\1")}/"
-          end
-        end
-      end
-    end
-  end
+#   task :copy_config do
+#     on release_roles :app do |role|
+#       fetch(:linked_files).each do |linked_file|
+#         user = role.user + "@" if role.user
+#         hostname = role.hostname
+#         linked_files(shared_path).each do |file|
+#           run_locally do
+#             execute :rsync, "config/#{file.to_s.gsub(/.*\/(.*)$/,"\\1")}", "#{user}#{hostname}:#{file.to_s.gsub(/(.*)\/[^\/]*$/, "\\1")}/"
+#           end
+#         end
+#       end
+#     end
+#   end
 
 end
-before "deploy:check:linked_files", "deploy:copy_config"
+# before "deploy:check:linked_files", "deploy:copy_config"
