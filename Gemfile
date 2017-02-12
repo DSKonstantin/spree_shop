@@ -20,6 +20,9 @@ gem 'haml-rails'                                          # Haml-rails provides 
 gem 'devise'                                              # Devise is a flexible authentication solution for Rails based on Warden.
 gem 'rollbar'
 
+gem 'listen'
+
+
 group :development do
   gem 'capistrano'                                        # Deployment System Manager
   gem 'capistrano-rvm'                                    # RVM capistrano receipts
@@ -28,5 +31,4 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano3-puma'                                  # Puma web-server capistrano receipts
   gem 'jazz_hands'                                      # More Flexible Rails Console
-  gem 'listen'
 end
