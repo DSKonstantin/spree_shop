@@ -19,7 +19,7 @@ gem 'spree_gateway', '~> 3.2.0.beta'
 #Cusom Gems
 gem 'haml-rails'                                          # Haml-rails provides Haml generators for Rails 4
 gem 'devise'                                              # Devise is a flexible authentication solution for Rails based on Warden.
-
+gem 'rollbar'
 
 group :development do
   gem 'capistrano'                                        # Deployment System Manager
