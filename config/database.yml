@@ -10,3 +10,7 @@ development:
 test:
   <<: *default
   database: spree_shop_development
+
+production:
+  <<: *default
+  database: spree_shop_production
