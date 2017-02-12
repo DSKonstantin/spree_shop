@@ -11,9 +11,9 @@ gem 'turbolinks', '~> 5'      # Turbolinks makes navigating your web application
 gem 'nokogiri', '~> 1.6.8.1'      # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 
 #Spree Gems
-# gem 'spree', '~> 3.2.0.rc1'
-# gem 'spree_auth_devise', '~> 3.2.0.beta'
-# gem 'spree_gateway', '~> 3.2.0.beta'
+gem 'spree', '~> 3.2.0.rc1'
+gem 'spree_auth_devise', '~> 3.2.0.beta'
+gem 'spree_gateway', '~> 3.2.0.beta'
 
 #Cusom Gems
 gem 'haml-rails'                                          # Haml-rails provides Haml generators for Rails 4
