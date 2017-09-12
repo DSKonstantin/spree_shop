@@ -2,9 +2,385 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7806d0-5995-4801-8e84-4879dc70f718" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211111004_devise_create_users.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112422_spree_one_two.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112423_spree_promo_one_two.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112424_add_tax_rate_label.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112425_add_toggle_tax_rate_display.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112426_remove_unused_preference_columns.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112427_add_lock_version_to_variant.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112428_add_states_required_to_countries.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112429_add_on_demand_to_product_and_variant.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112430_remove_not_null_constraint_from_products_on_hand.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112431_split_prices_from_variants.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112432_remove_not_null_from_spree_prices_amount.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112433_add_currency_to_line_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112434_add_currency_to_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112435_add_cost_currency_to_variants.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112436_remove_display_on_from_payment_methods.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112437_add_position_to_taxonomies.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112438_add_last_ip_to_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112439_add_state_to_spree_adjustments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112440_add_display_on_to_spree_payment_methods.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112441_add_position_to_product_properties.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112442_add_identifier_to_spree_payments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112443_add_order_id_index_to_payments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112444_add_primary_to_spree_products_taxons.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112445_create_spree_stock_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112446_create_spree_stock_locations.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112447_create_default_stock.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112448_add_order_id_index_to_shipments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112449_change_meta_description_on_spree_products_to_text.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112450_add_stock_location_id_to_spree_shipments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112451_add_pending_to_inventory_unit.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112452_remove_on_demand_from_product_and_variant.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112453_create_shipping_method_zone.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112454_remove_shipping_category_id_from_shipping_method.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112455_create_shipping_method_categories.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112456_add_tracking_url_to_spree_shipping_methods.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112457_create_spree_shipping_rates.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112458_remove_category_match_attributes_from_shipping_method.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112459_create_stock_movements.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112460_add_address_fields_to_stock_location.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112461_add_active_field_to_stock_locations.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112462_add_backorderable_to_stock_item.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112463_add_default_quantity_to_stock_movement.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112464_add_source_and_destination_to_stock_movements.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112465_change_orders_total_precision.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112466_change_spree_payments_amount_precision.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112467_change_spree_return_authorization_amount_precision.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112468_change_adjustments_amount_precision.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112469_add_originator_to_stock_movement.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112470_drop_source_and_destination_from_stock_movement.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112471_migrate_inventory_unit_sold_to_on_hand.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112472_add_stock_location_to_rma.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112473_update_shipment_state_for_canceled_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112474_add_seo_metas_to_taxons.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112475_remove_stock_item_and_variant_lock.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112476_add_name_to_spree_credit_cards.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112477_update_name_fields_on_spree_credit_cards.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112478_add_index_to_source_columns_on_adjustments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112479_update_adjustment_states.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112480_add_shipping_rates_to_shipments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112481_create_spree_stock_transfers.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112482_drop_products_count_on_hand.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112483_set_default_shipping_rate_cost.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112484_add_number_to_stock_transfer.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112485_add_sku_index_to_spree_variants.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112486_add_backorderable_default_to_spree_stock_location.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112487_add_propage_all_variants_to_spree_stock_location.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112488_rename_shipping_methods_zones_to_spree_shipping_methods_zones.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112489_add_user_id_index_to_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112490_add_updated_at_to_spree_countries.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112491_add_updated_at_to_spree_states.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112492_add_cvv_result_code_and_cvv_result_message_to_spree_payments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112493_add_unique_index_to_permalink_on_spree_products.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112494_add_unique_index_to_orders_shipments_and_stock_transfers.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112495_add_deleted_at_to_spree_tax_rates.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112496_remove_lock_version_from_inventory_units.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112497_add_cost_price_to_line_item.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112498_set_backorderable_to_default_to_false.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112499_add_created_by_id_to_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112500_index_completed_at_on_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112501_add_tax_category_id_to_spree_line_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112502_migrate_tax_categories_to_line_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112503_drop_spree_mail_methods.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112504_set_default_stock_location_on_shipments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112505_upgrade_adjustments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112506_rename_adjustment_fields.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112507_add_admin_name_column_to_spree_shipping_methods.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112508_add_admin_name_column_to_spree_stock_locations.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112509_add_shipment_total_to_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112510_expand_order_number_size.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112511_rename_activators_to_promotions.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112512_add_adjustment_total_to_line_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112513_add_adjustment_total_to_shipments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112514_add_depth_to_spree_taxons.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112515_add_tax_total_to_line_items_shipments_and_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112516_add_shipping_category_to_shipping_methods_and_products.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112517_migrate_old_shipping_calculators.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112518_add_code_to_spree_promotion_rules.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112519_change_states_required_for_countries.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112520_add_deleted_at_to_spree_stock_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112521_remove_promotions_event_name_field.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112522_add_promo_total_to_line_items_and_shipments_and_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112523_remove_unused_credit_card_fields.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112524_add_track_inventory_to_variant.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112525_add_tax_category_to_variants.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112526_add_channel_to_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112527_add_included_to_adjustments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112528_rename_tax_total_fields.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112529_add_line_item_id_to_spree_inventory_units.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112530_add_updated_at_to_variants.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112531_add_position_to_classifications.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112532_create_spree_orders_promotions.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112533_unique_shipping_method_categories.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112534_add_item_count_to_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112535_remove_value_type_from_spree_preferences.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112536_rename_permalink_to_slug_for_products.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112537_add_index_to_variant_id_and_currency_on_prices.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112538_rename_activator_id_in_rules_and_actions_to_promotion_id.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112539_add_deleted_at_to_spree_prices.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112540_add_approver_id_and_approved_at_to_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112541_add_confirmation_delivered_to_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112542_add_auto_capture_to_payment_methods.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112543_create_spree_payment_capture_events.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112544_add_uncaptured_amount_to_payments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112545_default_variant_weight_to_zero.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112546_add_tax_category_id_to_shipping_methods.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112547_add_tax_rate_id_to_shipping_rates.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112548_add_pre_tax_amount_to_line_items_and_shipments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112549_add_more_indexes.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112550_add_considered_risky_to_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112551_add_preference_store_to_everything.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112552_add_user_id_to_spree_credit_cards.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112553_migrate_old_preferences.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112554_create_spree_stores.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112555_create_store_from_preferences.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112556_add_timestamps_to_spree_assets.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112557_create_spree_taxons_promotion_rules.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112558_add_additional_store_fields.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112559_add_many_missing_indexes.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112560_correct_some_polymorphic_index_and_add_more_missing.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112561_add_user_id_created_by_id_index_to_order.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112562_change_spree_price_amount_precision.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112563_add_token_to_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112564_move_order_token_from_tokenized_permission.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112565_set_shipment_total_for_users_upgrading.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112566_drop_credit_card_first_name_and_last_name.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112567_add_deleted_at_to_spree_promotion_actions.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112568_remove_uncaptured_amount_from_spree_payments.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112569_create_spree_refunds.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112570_create_spree_return_authorization_inventory_unit.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112571_rename_return_authorization_inventory_unit_to_return_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112572_backfill_line_item_pre_tax_amount.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112573_recreate_spree_return_authorizations.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112574_add_amount_fields_to_return_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112575_drop_return_authorization_amount.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112576_create_spree_return_authorization_reasons.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112577_create_spree_refund_reasons.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112578_rename_return_authorization_reason.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112579_create_spree_promotion_categories.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112580_drop_received_at_on_return_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112581_add_reception_and_acceptance_status_to_return_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112582_create_default_refund_reason.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112583_add_default_to_spree_stock_locations.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112584_create_spree_customer_returns.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112585_add_customer_return_id_to_return_item.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112586_create_friendly_id_slugs.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112587_rename_spree_refund_return_authorization_id.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112588_increase_return_item_pre_tax_amount_precision.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112589_copy_product_slugs_to_slug_history.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112590_create_spree_reimbursements.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112591_add_promotionable_to_spree_products.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112592_add_exchange_inventory_unit_foreign_keys.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112593_add_acceptance_status_errors_to_return_item.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112594_create_spree_reimbursement_types.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112595_add_default_to_shipment_cost.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112596_add_default_to_spree_credit_cards.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112597_make_existing_credit_cards_default.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112598_add_type_to_reimbursement_type.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112599_create_spree_reimbursement_credits.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112600_add_meta_title_to_spree_products.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112601_add_kind_to_zone.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112602_add_code_to_spree_tax_categories.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112603_default_pre_tax_amount_should_be_zero.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112604_add_code_to_spree_shipping_methods.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112605_add_cancel_audit_fields_to_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112606_add_store_id_to_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112607_create_spree_taxons_prototypes.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112608_add_state_lock_version_to_order.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112609_add_counter_cache_from_spree_variants_to_spree_stock_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112610_fix_adjustment_order_presence.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112611_update_classifications_positions.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112612_add_guest_token_index_to_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112613_remove_token_permissions_table.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112614_remove_extra_products_slug_index.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112615_update_product_slug_index.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112616_rename_identifier_to_number_for_payment.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112617_create_spree_store_credits.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112618_create_spree_store_credit_categories.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112619_create_spree_store_credit_events.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112620_create_spree_store_credit_types.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112621_remove_environment_from_payment_method.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112622_add_resellable_to_return_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112623_add_code_to_spree_promotion_categories.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112624_remove_environment_from_tracker.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112625_remove_spree_configurations.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112626_add_index_to_spree_stock_items_variant_id.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112627_ensure_payments_have_numbers.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112628_add_missing_indexes_on_spree_tables.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112629_remove_duplicated_indexes_from_multi_columns.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112630_remove_user_index_from_spree_state_changes.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112631_fix_adjustment_order_id.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112632_add_position_to_spree_payment_methods.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112633_add_deleted_at_to_friendly_id_slugs.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112634_increase_scale_on_pre_tax_amounts.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112635_add_taxable_adjustment_total_to_line_item.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112636_migrate_payment_methods_display.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112637_enable_acts_as_paranoid_on_calculators.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112638_spree_payment_method_store_credits.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112639_rename_has_and_belongs_to_associations_to_model_names.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112640_spree_store_credit_types.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112641_add_discontinued_to_products_and_variants.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112642_remove_shipping_method_id_from_spree_orders.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112643_add_id_column_to_earlier_habtm_tables.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112644_add_indexes.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112645_remove_counter_cache_from_spree_variants_to_spree_stock_items.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112646_acts_as_taggable_on_spree_migration.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112647_change_collation_for_spree_tag_names.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112648_add_missing_indexes_to_spree_taggings.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112649_add_zipcode_required_to_spree_countries.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112650_add_created_at_to_variant.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112651_add_null_false_to_spree_variants_timestamps.spree.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112652_add_api_key_to_spree_users.spree_api.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112653_resize_api_key_field.spree_api.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112654_rename_api_key_to_spree_api_key.spree_api.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112655_add_index_to_user_spree_api_key.spree_api.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112656_create_users.spree_auth.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112657_rename_columns_for_devise.spree_auth.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112658_convert_user_remember_field.spree_auth.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112659_add_reset_password_sent_at_to_spree_users.spree_auth.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112660_make_users_email_index_unique.spree_auth.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112661_add_deleted_at_to_users.spree_auth.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112662_add_confirmable_to_users.spree_auth.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112663_add_missing_indices_on_user.spree_auth.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112664_create_skrill_transactions.spree_gateway.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112665_update_braintree_payment_method_type.spree_gateway.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112666_update_stripe_payment_method_type.spree_gateway.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112667_update_balanced_payment_method_type.spree_gateway.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112668_update_paypal_payment_method_type.spree_gateway.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170211112669_migrate_stripe_preferences.spree_gateway.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/1/mini/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/1/mini/ror_baseball_jersey_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/1/small/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/1/small/ror_baseball_jersey_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/10/mini/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/10/mini/ror_baseball_jersey_back_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/10/small/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/10/small/ror_baseball_jersey_back_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/11/mini/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/11/mini/ror_baseball_jersey_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/11/small/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/11/small/ror_baseball_jersey_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/12/mini/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/12/mini/ror_baseball_jersey_back_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/12/small/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/12/small/ror_baseball_jersey_back_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/13/mini/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/13/mini/ror_baseball_jersey_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/13/small/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/13/small/ror_baseball_jersey_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/14/mini/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/14/mini/ror_baseball_jersey_back_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/14/small/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/14/small/ror_baseball_jersey_back_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/15/mini/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/15/mini/ror_baseball_jersey_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/15/small/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/15/small/ror_baseball_jersey_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/16/mini/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/16/mini/ror_baseball_jersey_back_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/16/small/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/16/small/ror_baseball_jersey_back_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/17/mini/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/17/mini/ror_baseball_jersey_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/17/small/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/17/small/ror_baseball_jersey_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/18/mini/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/18/mini/ror_baseball_jersey_back_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/18/small/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/18/small/ror_baseball_jersey_back_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/19/mini/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/19/mini/ror_baseball_jersey_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/19/small/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/19/small/ror_baseball_jersey_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/2/mini/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/2/mini/ror_baseball_jersey_back_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/2/small/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/2/small/ror_baseball_jersey_back_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/20/mini/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/20/mini/ror_baseball_jersey_back_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/20/small/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/20/small/ror_baseball_jersey_back_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/21/mini/ror_tote.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/21/mini/ror_tote.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/21/product/ror_tote.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/21/product/ror_tote.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/21/small/ror_tote.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/21/small/ror_tote.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/22/mini/ror_tote_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/22/mini/ror_tote_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/22/product/ror_tote_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/22/product/ror_tote_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/22/small/ror_tote_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/22/small/ror_tote_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/23/mini/ror_bag.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/23/mini/ror_bag.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/23/product/ror_bag.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/23/product/ror_bag.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/23/small/ror_bag.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/23/small/ror_bag.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/24/mini/ror_baseball.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/24/mini/ror_baseball.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/24/product/ror_baseball.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/24/product/ror_baseball.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/24/small/ror_baseball.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/24/small/ror_baseball.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/25/mini/ror_baseball_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/25/mini/ror_baseball_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/25/product/ror_baseball_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/25/product/ror_baseball_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/25/small/ror_baseball_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/25/small/ror_baseball_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/26/mini/ror_jr_spaghetti.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/26/mini/ror_jr_spaghetti.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/26/product/ror_jr_spaghetti.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/26/product/ror_jr_spaghetti.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/26/small/ror_jr_spaghetti.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/26/small/ror_jr_spaghetti.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/27/mini/ror_mug.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/27/mini/ror_mug.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/27/product/ror_mug.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/27/product/ror_mug.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/27/small/ror_mug.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/27/small/ror_mug.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/28/mini/ror_mug_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/28/mini/ror_mug_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/28/product/ror_mug_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/28/product/ror_mug_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/28/small/ror_mug_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/28/small/ror_mug_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/29/mini/ror_ringer.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/29/mini/ror_ringer.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/29/product/ror_ringer.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/29/product/ror_ringer.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/29/small/ror_ringer.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/29/small/ror_ringer.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/3/mini/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/3/mini/ror_baseball_jersey_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/3/small/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/3/small/ror_baseball_jersey_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/30/mini/ror_ringer_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/30/mini/ror_ringer_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/30/product/ror_ringer_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/30/product/ror_ringer_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/30/small/ror_ringer_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/30/small/ror_ringer_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/31/mini/ror_stein.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/31/mini/ror_stein.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/31/product/ror_stein.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/31/product/ror_stein.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/31/small/ror_stein.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/31/small/ror_stein.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/32/mini/ror_stein_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/32/mini/ror_stein_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/32/product/ror_stein_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/32/product/ror_stein_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/32/small/ror_stein_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/32/small/ror_stein_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/33/mini/apache_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/33/mini/apache_baseball.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/33/product/apache_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/33/product/apache_baseball.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/33/small/apache_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/33/small/apache_baseball.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/34/mini/ruby_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/34/mini/ruby_baseball.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/34/product/ruby_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/34/product/ruby_baseball.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/34/small/ruby_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/34/small/ruby_baseball.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/35/mini/spree_bag.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/35/mini/spree_bag.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/35/product/spree_bag.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/35/product/spree_bag.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/35/small/spree_bag.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/35/small/spree_bag.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/36/mini/spree_tote_front.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/36/mini/spree_tote_front.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/36/product/spree_tote_front.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/36/product/spree_tote_front.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/36/small/spree_tote_front.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/36/small/spree_tote_front.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/37/mini/spree_tote_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/37/mini/spree_tote_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/37/product/spree_tote_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/37/product/spree_tote_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/37/small/spree_tote_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/37/small/spree_tote_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/38/mini/spree_ringer_t.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/38/mini/spree_ringer_t.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/38/product/spree_ringer_t.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/38/product/spree_ringer_t.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/38/small/spree_ringer_t.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/38/small/spree_ringer_t.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/39/mini/spree_ringer_t_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/39/mini/spree_ringer_t_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/39/product/spree_ringer_t_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/39/product/spree_ringer_t_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/39/small/spree_ringer_t_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/39/small/spree_ringer_t_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/4/mini/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/4/mini/ror_baseball_jersey_back_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/4/small/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/4/small/ror_baseball_jersey_back_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/40/mini/spree_spaghetti.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/40/mini/spree_spaghetti.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/40/product/spree_spaghetti.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/40/product/spree_spaghetti.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/40/small/spree_spaghetti.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/40/small/spree_spaghetti.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/41/mini/spree_jersey.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/41/mini/spree_jersey.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/41/product/spree_jersey.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/41/product/spree_jersey.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/41/small/spree_jersey.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/41/small/spree_jersey.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/42/mini/spree_jersey_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/42/mini/spree_jersey_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/42/product/spree_jersey_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/42/product/spree_jersey_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/42/small/spree_jersey_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/42/small/spree_jersey_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/43/mini/spree_stein.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/43/mini/spree_stein.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/43/product/spree_stein.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/43/product/spree_stein.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/43/small/spree_stein.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/43/small/spree_stein.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/44/mini/spree_stein_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/44/mini/spree_stein_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/44/product/spree_stein_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/44/product/spree_stein_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/44/small/spree_stein_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/44/small/spree_stein_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/45/mini/spree_mug.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/45/mini/spree_mug.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/45/small/spree_mug.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/45/small/spree_mug.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/46/mini/spree_mug_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/46/mini/spree_mug_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/46/small/spree_mug_back.jpeg" afterPath="$PROJECT_DIR$/public/spree/products/46/small/spree_mug_back.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/5/mini/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/5/mini/ror_baseball_jersey_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/5/small/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/5/small/ror_baseball_jersey_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/6/mini/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/6/mini/ror_baseball_jersey_back_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/6/small/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/6/small/ror_baseball_jersey_back_green.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/7/mini/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/7/mini/ror_baseball_jersey_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/7/small/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/7/small/ror_baseball_jersey_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/8/mini/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/8/mini/ror_baseball_jersey_back_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/8/small/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/8/small/ror_baseball_jersey_back_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/9/mini/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/9/mini/ror_baseball_jersey_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/9/small/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/9/small/ror_baseball_jersey_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/spree_shop.iml" afterPath="$PROJECT_DIR$/.idea/spree_shop.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capfile" afterPath="$PROJECT_DIR$/Capfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.rvmrc" afterPath="$PROJECT_DIR$/.rvmrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/spree.rb" afterPath="$PROJECT_DIR$/config/initializers/spree.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/spree/frontend/all.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/spree/frontend/all.js" />
     </list>
     <ignored path="spree_shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,8 +398,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/spree_shop@Development__spree_shop.coverage" NAME="Development: spree_shop Coverage Results" MODIFIED="1486898696887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="spree_shop" />
     <SUITE FILE_PATH="coverage/spree_shop@Production__spree_shop.coverage" NAME="Production: spree_shop Coverage Results" MODIFIED="1487013313215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="spree_shop" />
+    <SUITE FILE_PATH="coverage/spree_shop@Development__spree_shop.coverage" NAME="Development: spree_shop Coverage Results" MODIFIED="1505243950173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="spree_shop" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -34,26 +410,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="deploy.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="156" column="35" selection-start-line="76" selection-start-column="1" selection-end-line="156" selection-end-column="35" />
-              <folding>
-                <marker date="1487019716000" expanded="true" signature="738:1054" ph="do ... end" />
-                <marker date="1487019716000" expanded="true" signature="783:1044" ph="do ... end" />
-                <marker date="1487019716000" expanded="true" signature="816:1032" ph="do ... end" />
-                <marker date="1487019716000" expanded="true" signature="865:1018" ph="do ... end" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Capfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Capfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -62,28 +423,48 @@
       <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <file leaf-file-name="application.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3585">
-              <caret line="239" column="8" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_record.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -93,17 +474,7 @@
         <entry file="file://$PROJECT_DIR$/config/puma.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
-              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="122" column="46" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="46" />
+              <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -113,7 +484,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,7 +499,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/database.yml.example" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.rvmrc" />
@@ -141,10 +511,12 @@
         <option value="$PROJECT_DIR$/config/nginx.conf" />
         <option value="$PROJECT_DIR$/config/secrets.yml" />
         <option value="$PROJECT_DIR$/config/deploy/production.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -162,18 +534,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -190,7 +552,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -200,12 +561,6 @@
               <option name="myItemId" value="spree_shop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree_shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spree_shop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -221,7 +576,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree_shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree_shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,13 +630,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree_shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree_shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concerns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
@@ -274,7 +669,19 @@
       <recent name="$PROJECT_DIR$/config" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Production: spree_shop">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: spree_shop">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -307,6 +714,19 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -447,7 +867,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -463,6 +883,7 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5b7806d0-5995-4801-8e84-4879dc70f718" name="Default" comment="" />
@@ -478,35 +899,44 @@
       <workItem from="1486913780208" duration="8016000" />
       <workItem from="1487010986301" duration="1348000" />
       <workItem from="1487016743832" duration="1718000" />
+      <workItem from="1505240771923" duration="442000" />
+      <workItem from="1505241445184" duration="240000" />
+      <workItem from="1505241691361" duration="100000" />
+      <workItem from="1505241794932" duration="412000" />
+      <workItem from="1505242230390" duration="219000" />
+      <workItem from="1505242453817" duration="1715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39181000" />
+    <option name="totallyTimeSpent" value="42309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21001616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47997138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37484884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42090786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5864571" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16093536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16082224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -527,7 +957,7 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -535,49 +965,49 @@
     <entry file="file://$PROJECT_DIR$/config/initializers/rollbar.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Capfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="17" />
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -585,22 +1015,21 @@
     <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding />
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -608,48 +1037,42 @@
     <entry file="file://$PROJECT_DIR$/config/puma.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Capfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+          <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
-          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
-          <folding>
-            <marker date="1487019716000" expanded="true" signature="738:1054" ph="do ... end" />
-            <marker date="1487019716000" expanded="true" signature="783:1044" ph="do ... end" />
-            <marker date="1487019716000" expanded="true" signature="816:1032" ph="do ... end" />
-            <marker date="1487019716000" expanded="true" signature="865:1018" ph="do ... end" />
-          </folding>
+          <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
-          <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+          <caret line="50" column="58" lean-forward="false" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -657,28 +1080,28 @@
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml.example">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -686,49 +1109,35 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml.example">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml.example">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.rvmrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -736,94 +1145,64 @@
     <entry file="file://$PROJECT_DIR$/config/initializers/rollbar.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy/staging.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/secrets.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+          <caret line="16" column="70" lean-forward="false" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3585">
-          <caret line="239" column="8" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="8" />
+        <state relative-caret-position="3690">
+          <caret line="246" column="8" lean-forward="false" selection-start-line="246" selection-start-column="8" selection-end-line="246" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="122" column="46" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="46" />
+        <state relative-caret-position="1830">
+          <caret line="122" column="46" lean-forward="false" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -831,39 +1210,35 @@
     <entry file="file://$PROJECT_DIR$/bin/rails">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/bundle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/setup">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/spring">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -871,37 +1246,79 @@
     <entry file="file://$PROJECT_DIR$/config/puma.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Capfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+          <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="156" column="35" selection-start-line="76" selection-start-column="1" selection-end-line="156" selection-end-column="35" />
-          <folding>
-            <marker date="1487019716000" expanded="true" signature="738:1054" ph="do ... end" />
-            <marker date="1487019716000" expanded="true" signature="783:1044" ph="do ... end" />
-            <marker date="1487019716000" expanded="true" signature="816:1032" ph="do ... end" />
-            <marker date="1487019716000" expanded="true" signature="865:1018" ph="do ... end" />
-          </folding>
+        <state relative-caret-position="1807">
+          <caret line="155" column="38" lean-forward="false" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Capfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
